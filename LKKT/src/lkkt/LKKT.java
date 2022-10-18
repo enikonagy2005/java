@@ -59,8 +59,12 @@ public class LKKT {
         System.out.println("Add meg a diák nevét:");
         fullName=bill.nextLine();
         //Szedjük szét a nevet firstName és Lastname vátozókba
-        
+        lastName=fullName.split(" ")[0];
+        System.out.println(firstName);
+        System.out.println(lastName);
         //Kérjük be egy osztály azonosítóját a classId változóba pl: 2022ea vagy 2018ce stb
+        String classId;
+        System.out.println("Add meg a diák osztályát:");
         
         
         
