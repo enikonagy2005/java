@@ -16,15 +16,15 @@ public class LKKT {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        //KÃ©rjÃ¼nkbe be 2 pozitÃ­v egÃ©sz szÃ¡mot
-        //StÃ¡moljuk ki a legkisebb kÃ¶zÃ¶s tÃ¶bbszÃ¶rÃ¶sÃ¼ket
+    public static void main(String[] args, Scanner Scanner) {
+        //Kérjünkbe be 2 pozitív egész számot
+        //Stámoljuk ki a legkisebb közös többszörösüket
         int x;
         int y;
         Scanner bill=new Scanner(System.in);
-        System.out.println("Add meg az egyik szÃ¡mot:");
+        System.out.println("Add meg az egyik számot:");
         x=bill.nextInt();
-        System.out.println("Add meg a mÃ¡sik szÃ¡mot:");
+        System.out.println("Add meg a másik számot:");
         y=bill.nextInt();
         
         
@@ -39,26 +39,29 @@ public class LKKT {
         int LNKO=a;
         System.out.println(LNKO);
         System.out.println("LKTT: " +x*y/LNKO);
-        //keresett karakter(ek) pozicÃ­Ã³ja
+        //keresett karakter(ek) pozicíója
         String szoveg;
-        szoveg = "Ez egy tetszÅ‘leges szÃ¶veg";
+        szoveg = "Ez egy tetszõleges szöveg";
         System.out.println(szoveg.indexOf("t"));
         System.out.println(szoveg.isEmpty());
         String szoveg2="";
         System.out.println(szoveg2.isEmpty());
-        //lecserÃ©li a szÃ¶vegben a megadott karakter(ek)et mÃ¡s karakter(ek)re
-        System.out.println(szoveg.replace("tetszÅ‘leges", "akÃ¡rmilyen"));
+        //lecseréli a szövegben a megadott karakter(ek)et más karakter(ek)re
+        System.out.println(szoveg.replace("tetszõleges", "akármilyen"));
         System.out.println(szoveg.replace("e", "b"));
         
         
-          //KÃ©rjÃ¼nk be egy diÃ¡k teljes nevÃ©t fullName vÃ¡tozÃ³ba!
-          String fullName = "Nagy EnikÅ‘";
-        System.out.println(fullName);
-        //SzedjÃ¼k szÃ©t a nevet firstName Ã©s Lastname vÃ¡tozÃ³kba
-        String Firstname= "EnikÅ‘";
-        String Lastname= "Nagy";
-        System.out.println(Firstname);
-        System.out.println(Lastname);
+          //Kérjünk be egy diák teljes nevét fullName vátozóba!
+        String fullName, firstName, lastName;
+        int szokozhely;
+        Scanner= bill;
+        bill = new Scanner(System.in);
+        System.out.println("Add meg a diák nevét:");
+        fullName=bill.nextLine();
+        //Szedjük szét a nevet firstName és Lastname vátozókba
+        
+        //Kérjük be egy osztály azonosítóját a classId változóba pl: 2022ea vagy 2018ce stb
+        
         
         
         
