@@ -49,6 +49,22 @@ public class LKKT {
         //lecseréli a szövegben a megadott karakter(ek)et más karakter(ek)re
         System.out.println(szoveg.replace("tetszőleges", "akármilyen"));
         System.out.println(szoveg.replace("e", "b"));
+        
+        
+          //Kérjünk be egy diák teljes nevét fullName vátozóba!
+          String fullName = "Nagy Enikő";
+        System.out.println(fullName);
+        //Szedjük szét a nevet firstName és Lastname vátozókba
+        String Firstname= "Enikő";
+        String Lastname= "Nagy";
+        System.out.println(Firstname);
+        System.out.println(Lastname);
+        
+        
+        
+
+
+          
     }
     
 }
