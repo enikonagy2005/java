@@ -9,13 +9,14 @@ package xyz;
  *
  * @author user3
  */
-public class Xyz {
+public class XYZ {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+        // Metódus készítés paraméterként kapott sugárból és magasságból kiszámolja a henger térfogatát
+     
+    
     
 }

@@ -86,22 +86,9 @@ public class Metodusok {
             
             //Készítsünk egy metódust, ami kiszámolja egy négyzet alapú gúla tárfogatát
             //Bemenő adatként az alap oldalának hosszát és a magasságot adjuk meg
-            System.out.println("Add meg a gula alapjának hosszát:");
-            int alap= scanner.nextInt();
-            System.out.println("Add meg a magasságát a gulának");
-            int magassag= scanner.nextInt();
-            System.out.println(gula(alap,magassag));
-                double terfogat=(alap*magassag)/3;
-                return terfogat;
-                return atl= (szam1+szam2)/2.0;
+             
                
-            }
- 
-       
-
-        
-    }
-
-
+        }
+    
     
 
