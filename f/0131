@@ -1,0 +1,101 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg0131;
+
+import java.util.Random;
+
+/**
+ *
+ * @author user3
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     * @return 
+     */
+    public static double main(String[] args) {
+        // hozz létre egy mátrixot (4x5), töltsd fel random számokkal
+        int rows = 4, columns = 5;
+        double[][] matrix = new double[rows][columns];
+        Random rand = new Random();
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                matrix[i][j] = rand.nextDouble();
+             }
+        }
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        //kiírja visszafelé a mátrixot
+          for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                matrix[i][j] = rand.nextDouble();
+            }
+        }
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+    
+                //el dönti több mint a fele páros szám
+    public static void doubleMatri(int[][] numbers) {
+            for (int i=0; i<numbers.length; i++){
+                for(int j=0; j<numbers[0].length; j++){
+                    numbers[i][j]= numbers[i][j]*2;
+                }
+            }
+    }
+}
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
